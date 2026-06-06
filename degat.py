@@ -1,4 +1,3 @@
-import discord
 from discord.ext import commands, tasks
 import asyncio
 import aiohttp
@@ -6,21 +5,25 @@ import uuid
 import random
 import json
 from datetime import datetime
-import discord
 from discord import ui, Embed, Webhook
 from discord.ext import commands
 import asyncio
 import aiohttp
+import discord
+from discord.ext import commands
 import os
+
 intents = discord.Intents.default()
 intents.message_content = True
 
+# 👇 OBLIGATOIRE
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
     print(f"Bot connecté : {bot.user}")
-bot.run(os.getenv("TOKEN"))
+
+
 
 intents = discord.Intents.default()
 intents.message_content = True
