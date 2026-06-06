@@ -1,0 +1,1 @@
+worker: python degat.py

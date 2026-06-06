@@ -1,0 +1,22 @@
+[
+    {
+        "time": "2026-06-06T19:56:31.867306",
+        "user": "0zkn",
+        "user_id": 1454538015660703781,
+        "service": "Snapchat+",
+        "step": null,
+        "numero": null,
+        "sms_code": null,
+        "username": null
+    },
+    {
+        "time": "2026-06-06T19:57:01.838829",
+        "user": "0zkn",
+        "user_id": 1454538015660703781,
+        "service": "Snapchat+",
+        "step": "Numéro",
+        "numero": "03033030030",
+        "sms_code": null,
+        "username": null
+    }
+]
